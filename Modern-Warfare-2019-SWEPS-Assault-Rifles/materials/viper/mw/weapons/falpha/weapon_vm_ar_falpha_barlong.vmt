@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/falpha/barrel/weapon_vm_ar_falpha_barlong_camo_c"
+	$bumpmap	"viper/mw/weapons/falpha/barrel/weapon_vm_ar_falpha_barlong_camo_n"
+	$phongexponenttexture	"viper/mw/weapons/falpha/barrel/weapon_vm_ar_falpha_barlong_camo_s"
+
+	"$color2"	"[.7 .7 .7]"
+	"$blendtintbybasealpha" "0"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"3"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.5 4.75 5]"
+
+	$envmap	"env_cubemap"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.05"
+		}
+		"MwCamo" {}
+	}
+	"$basemapalphaenvmapmask" 1
+	$envmapfresnel	"1"
+
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+}

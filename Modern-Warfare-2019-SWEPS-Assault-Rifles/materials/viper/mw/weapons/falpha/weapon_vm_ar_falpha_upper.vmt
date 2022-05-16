@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/falpha/receiver/weapon_vm_ar_falpha_upper_camo_c"
+	$bumpmap	"viper/mw/weapons/falpha/receiver/weapon_vm_ar_falpha_upper_camo_n"
+	$phongexponenttexture	"viper/mw/weapons/falpha/receiver/weapon_vm_ar_falpha_upper_camo_s"
+
+	"$color2"	"[.2 .2 .2]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"5"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.5 4.75 5]"
+
+	$envmap	"viper/shared/envmaps/metal_generic_006"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.25"
+		}
+		"MwCamo" {}
+	}
+	"$basemapalphaenvmapmask" 1
+	$envmapfresnel	"1"
+
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+}

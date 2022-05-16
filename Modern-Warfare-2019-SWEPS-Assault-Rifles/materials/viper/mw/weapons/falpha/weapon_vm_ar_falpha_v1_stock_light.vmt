@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/falpha/stock/weapon_vm_ar_falpha_v1_stock_light_c"
+	$bumpmap	"viper/mw/weapons/falpha/stock/weapon_vm_ar_falpha_v1_stock_light_n"
+	$phongexponenttexture	"viper/mw/weapons/falpha/stock/weapon_vm_ar_falpha_v1_stock_light_s"
+
+	"$color2"	"[.2 .2 .2]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+	"$basemapalphaenvmapmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"3"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.5 4.75 5]"
+
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+	"$rimlight" "1"
+	"$rimlightboost" "1"
+	"$rimmask" "1"
+
+}
