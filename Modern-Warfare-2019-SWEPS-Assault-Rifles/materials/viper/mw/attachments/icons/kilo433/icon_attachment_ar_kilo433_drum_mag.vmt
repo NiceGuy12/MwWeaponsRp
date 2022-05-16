@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "viper/mw/attachments/icons/kilo433/icon_attachment_ar_kilo433_drum_mag"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}
