@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	$basetexture			"viper/mw/weapons/scharlie/stock/stockdmr_d"
+	$bumpmap				"viper/mw/weapons/scharlie/stock/stockdmr_n"
+	$phongexponenttexture	"viper/mw/weapons/scharlie/stock/stockdmr_s"
+
+	$phong	"1"
+	$phongboost	"2"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent	"24"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"0"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.25"
+		}
+		MwCamo {}
+	}
+}

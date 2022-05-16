@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	$basetexture			"viper/mw/weapons/scharlie/barrel/dmrbarrel_d"
+	$bumpmap				"viper/mw/weapons/scharlie/barrel/dmrbarrel_n"
+	$phongexponenttexture	"viper/mw/weapons/scharlie/barrel/dmrbarrel_s"
+
+	"$color2"	"[.2 .2 .2]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"1.5"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[1.2 3 7]"
+
+	$envmap	"viper/shared/envmaps/metal_generic_006"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.25"
+		}
+		"MwCamo" {}
+	}
+	"$basemapalphaenvmapmask" 1
+	$envmapfresnel	"1"
+
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+}
