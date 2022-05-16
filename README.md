@@ -4,3 +4,4 @@
 # Base Content link https://steamcommunity.com/sharedfiles/filedetails/?id=2459720887
 # Install Server Content To server\garrysmod\addons
 # I DO NOT OWN RIGHTS TO THIS SCRIPT!!
+# Steam Creators Mushroom Guy and Viper
