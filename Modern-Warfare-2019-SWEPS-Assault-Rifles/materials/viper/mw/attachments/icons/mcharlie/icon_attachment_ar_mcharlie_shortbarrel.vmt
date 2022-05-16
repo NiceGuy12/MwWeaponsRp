@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_shortbarrel"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}
