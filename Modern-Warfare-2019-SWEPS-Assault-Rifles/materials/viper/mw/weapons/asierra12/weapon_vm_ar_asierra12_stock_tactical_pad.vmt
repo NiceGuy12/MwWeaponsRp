@@ -1,0 +1,40 @@
+//Arachnit's super duper cool MLG vmt config, donut steal plz. :(
+
+"VertexLitGeneric"
+{
+//Basic
+	"$BaseTexture" 			    "viper/mw/weapons/asierra12/stock/weapon_vm_ar_asierra12_stock_tactical_pad_c"
+">=dx90"
+{
+	"$BumpMap" 				    "viper/mw/weapons/asierra12/stock/weapon_vm_ar_asierra12_stock_tactical_pad_n"
+	"$PhongExponentTexture"     "viper/mw/weapons/asierra12/stock/weapon_vm_ar_asierra12_stock_tactical_pad_m"
+
+//Warp
+//	"$LightWarpTexture"         "models/arachnit/shared/clothes_wrp2"		//< Change as needed
+
+//Phong
+	"$Phong"				    "1"
+	"$PhongBoost"               "3.15" 	//< Change as needed
+//	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
+	"$PhongFresnelRanges"	    "[0.3 1 4]"
+	"$PhongAlbedoTint"          "0"
+	"$PhongDisableHalfLambert"  "1"
+}
+
+//Other
+	"$HalfLambert" 			    "0"
+	"$NoDecal" 				    "0"
+	"$NoCull" 				    "0"
+//	"$BlendTintByBaseAlpha"     "1"
+//	"$Color2"					"{ 0 0 0 }"	//< RGB colors
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.2"
+		}
+		MwCamo {}
+	}
+}

@@ -1,0 +1,7 @@
+//Arachnit's super duper cool MLG vmt config, donut steal plz. :(
+
+"UnlitGeneric"
+{
+//Basic
+	"$BaseTexture" 			    "viper/mw/weapons/asierra12/scope/weapon_vm_ar_asierra12_scopeglass_c"
+}
