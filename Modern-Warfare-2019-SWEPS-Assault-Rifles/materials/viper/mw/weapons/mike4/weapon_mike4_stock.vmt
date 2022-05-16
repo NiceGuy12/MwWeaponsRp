@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/mike4/stock/weapon_vm_ar_mike4_stock_d"
+	$bumpmap	"viper/mw/weapons/mike4/stock/weapon_vm_ar_mike4_stock_n"
+	$phongexponenttexture	"viper/mw/weapons/mike4/stock/weapon_vm_ar_mike4_stock_s"
+
+	$phong	"1"
+	$phongboost	"0.65"
+	"$PhongFresnelRanges"	    "[ 2 4 6 ]"
+	$PhongAlbedoTint	"1"
+	"$blendtintbybasealpha"	"1"
+
+	// $detail "path/to/camo/pattern"
+	// $detailblendmode	"4"
+	// $detailscale	"1"
+
+	$envmap	"env_cubemap"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.5"
+		}
+		"MwCamo" {}
+	}
+	$normalmapalphaenvmapmask	"1"
+}

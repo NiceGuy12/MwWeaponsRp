@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/mike4/barrel/attachment_vm_kalpha_sight_mbuis_camo_d"
+	$bumpmap	"viper/mw/weapons/mike4/barrel/attachment_vm_kalpha_sight_mbuis_camo_n"
+	$phongexponenttexture	"viper/mw/weapons/mike4/barrel/attachment_vm_kalpha_sight_mbuis_camo_s"
+
+	//Roughness / Softness
+	$phong 1
+	$phongboost 1.5
+	//in ps we do adjustements - levels - 0.4 as the number in the middle
+	//then we do 1 / [number in the middle] we get phongboost
+	//this allows source to highlight details better
+
+	$phongfresnelranges "[1 1 1]"
+	//x = front facing, y = in between, z = parallel facing
+
+	//Metalness, keep like this?
+	$envmap	"env_cubemap"
+	$blendTintByBaseAlpha "1"
+	$normalmapalphaenvmapmask	1
+
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.4"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/mike4/barrel/attachment_vm_muzzledefault01_d"
+	$bumpmap	"viper/mw/weapons/mike4/barrel/attachment_vm_muzzledefault01_n"
+	$phongexponenttexture	"viper/mw/weapons/mike4/barrel/attachment_vm_muzzledefault01_s"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	// $detail "path/to/camo/pattern"
+	// $detailblendmode	"4"
+	// $detailscale	"1"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+}
