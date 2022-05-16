@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "viper/mw/attachments/icons/falpha/icon_attachment_ar_falpha_xmags"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}
