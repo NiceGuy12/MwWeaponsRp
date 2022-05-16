@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "viper/mw/attachments/icons/akilo47/icon_attachment_xmags_akilo47_v11"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}
