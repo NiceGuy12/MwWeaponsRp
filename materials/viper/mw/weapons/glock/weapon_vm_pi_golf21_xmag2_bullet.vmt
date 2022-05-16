@@ -1,0 +1,41 @@
+//Arachnit's super duper cool MLG vmt config, donut steal plz. :(
+
+"VertexLitGeneric"
+{
+//Basic
+	"$BaseTexture" 			    "viper/mw/weapons/glock/weapon_vm_pi_golf21_xmag_c"
+">=dx90"
+{
+	"$BumpMap" 				    "viper/mw/weapons/glock/weapon_vm_pi_golf21_xmag_n"
+	"$PhongExponentTexture"     "viper/mw/weapons/glock/weapon_vm_pi_golf21_xmag_m"
+
+//Warp
+//	"$LightWarpTexture"         "models/arachnit/shared/clothes_wrp2"		//< Change as needed
+	"$PhongWarpTexture"         "models/arachnit/shared/phongwarp_metal2" 		//< Change as needed
+
+//Phong
+	"$Phong"				    "1"
+	"$PhongBoost"               "22" 	//< Change as needed
+//	"$PhongExponent"            "15" 	//< $PhongExponent overrides $PhongExponentTexture !!!
+	"$PhongFresnelRanges"	    "[0.75 1.0 1.0]"
+	"$PhongAlbedoTint"          "1"
+	"$PhongDisableHalfLambert"  "1"
+}
+
+//Other
+	"$HalfLambert" 			    "0"
+	"$NoDecal" 				    "0"
+	"$NoCull" 				    "0"
+//	"$BlendTintByBaseAlpha"     "1"
+	"$Color2"					"{ 92 92 92 }"	//< RGB colors
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.2"
+		}
+		MwCamo {}
+	}
+}

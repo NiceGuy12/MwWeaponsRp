@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/m9/weapon_vm_pi_mike9_sights_camo_d"
+	$bumpmap	"viper/mw/weapons/m9/weapon_vm_pi_mike9_sights_camo_n"
+	$phongexponenttexture	"viper/mw/weapons/m9/weapon_vm_pi_mike9_sights_camo_s"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"0"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.2"
+		}
+		MwCamo {}
+	}
+}

@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/MW/weapons/357/weapon_vm_pi_cpapa_barrelrail_camo_d"
+	$bumpmap	"viper/MW/weapons/357/weapon_vm_pi_cpapa_barrelrail_camo_n"
+	$phongexponenttexture	"viper/MW/weapons/357/weapon_vm_pi_cpapa_barrelrail_camo_s"
+
+	$phong	"1"
+	$phongboost	"2.5"
+	//$phongexponent	"38"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"0"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.2"
+		}
+		MwCamo {}
+	}
+}

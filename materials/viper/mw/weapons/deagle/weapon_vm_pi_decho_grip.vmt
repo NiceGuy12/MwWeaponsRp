@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper\MW\weapons\deagle\weapon_vm_pi_decho_grip_camo_c"
+	$bumpmap	"viper\MW\weapons\deagle\weapon_vm_pi_decho_grip_camo_n"
+	$phongexponenttexture	"viper\MW\weapons\deagle\weapon_vm_pi_decho_grip_camo_s"
+
+	"$color2"	"[.2 .2 .2]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"3"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.5 4.75 5]"
+
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+}

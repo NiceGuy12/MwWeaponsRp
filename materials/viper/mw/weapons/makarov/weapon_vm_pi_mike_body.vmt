@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+
+//Textures
+	"$basetexture" 				 "viper/MW/weapons/makarov/weapon_vm_pi_mike_body_c"
+	"$bumpmap"				 "viper/MW/weapons/makarov/weapon_vm_pi_mike_body_n"
+	"$phongexponenttexture"			 "viper/MW/weapons/makarov/weapon_vm_pi_mike_body_g"
+
+	"$phong" 				"1"
+	"$phongboost" 				"125"
+	"$phongalbedotint"				 "1"	
+	"$phongfresnelranges" 			"[1 5 22.5]"
+
+//Envmap
+	"$envmap" 				"env_cubemap" 
+	"$envmapfresnel"				"1"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"				"[ .05 .05 .05 ]"
+
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.1"
+		}
+	}
+}
+
