@@ -5,4 +5,4 @@
 # Install Server Content To server\garrysmod\addons
 # I DO NOT OWN RIGHTS TO THIS SCRIPT!!
 # Steam Creators Mushroom Guy and Viper
-#Be Sure To Switch Branches For Pistols
+# Be Sure To Switch Branches For Pistols
