@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/akilo47/weapon_vm_ar_akilo47_545mag_d"
+	$bumpmap	"viper/mw/weapons/akilo47/weapon_vm_ar_akilo47_545mag_n"
+	$phongexponenttexture	"viper/mw/weapons/akilo47/weapon_vm_ar_akilo47_545mag_s"
+	$color2	"[ .3 .3 .3 ]"
+	$blendtintbybasealpha	"1"
+
+	$phong	"1"
+	$phongboost	"1"
+	"$PhongFresnelRanges"	    "[ 1 4 6 ]"
+
+	$envmap	"env_cubemap"
+	$basemapalphaenvmapmask	"1"
+	$envmapfresnel	".3"
+	$envmaptint	"[ .035 .035 .035 ]"
+
+	Proxies
+	{
+		MwEnvMapTint
+		{
+			min	"0"
+			max	"0.5"
+		}
+		MwCamo {}
+	}
+}
