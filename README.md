@@ -3,5 +3,4 @@
 # You Will Need The Base Content For This To Work
 # Base Content link https://steamcommunity.com/sharedfiles/filedetails/?id=2459720887
 # Install Server Content To server\garrysmod\addons
-# This Is A Private GIT
 # I DO NOT OWN RIGHTS TO THIS SCRIPT!!
