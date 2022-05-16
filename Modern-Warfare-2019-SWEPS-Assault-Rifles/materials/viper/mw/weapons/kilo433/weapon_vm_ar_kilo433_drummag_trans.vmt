@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	$basetexture	"viper/mw/weapons/kilo433/mag/weapon_vm_ar_kilo433_drummag_trans_d"
+	$bumpmap	"viper/mw/weapons/kilo433/mag/weapon_vm_ar_kilo433_drummag_trans_n"
+	$phongexponenttexture	"viper/mw/weapons/kilo433/mag/weapon_vm_ar_kilo433_drummag_trans_s"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.4 1 6]"
+	$phongexponent	"24"
+
+	// $detail "path/to/camo/pattern"
+	// $detailblendmode	"4"
+	// $detailscale	"1"
+
+	$envmap	"env_cubemap"
+	"Proxies"
+	{
+		"MwEnvMapTint"
+		{
+			"min" "0"
+			"max" "0.2"
+		}
+	}
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"0"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+}
